@@ -9,8 +9,6 @@
     <title>Personal Portfolio</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-
   </head>
   <body>
     <div class="jumbotron">
@@ -23,38 +21,60 @@
       </div>
     </div>
     <hr>
-    <h2 id="projects-text">Projects</h2>
-      <div class="btn-group-vertical" role="group" aria-label="github button" id="project-links">
-        <button type="button" name="Iceland" class="btn btn-inverse"><a href="http://kevlycoppers.github.io/iceland/">Iceland</a></button>
-        <button type="button" name="Animal-shelter" class="btn btn-inverse"><a href="https://github.com/kevlycoppers/animal-shelter">Animal Shelter</a></button>
-        <button type="button" name="Flume-page" class="btn btn-inverse"><a href="https://github.com/kevlycoppers/Flume-page">Flume Concert</a></button>
-        <button type="button" name="cupcake-shop" class="btn btn-inverse"><a href="https://github.com/kevlycoppers/cupcake_shop">Cupcake Shop</a></button>
-        <button type="button" name="hello-world" class="btn btn-inverse"><a href="https://github.com/kevlycoppers/hello-world">Hello World</a></button>
+    <div>
+      <h2 id="personal-info">Projects</h2>
+        <div class="btn-group-vertical" role="group" aria-label="github button" id="project-links">
+          <button type="button" name="Iceland" class="btn btn-inverse"><a href="http://kevlycoppers.github.io/iceland/">Iceland</a></button>
+          <button type="button" name="Animal-shelter" class="btn btn-inverse"><a href="https://github.com/kevlycoppers/animal-shelter">Animal Shelter</a></button>
+          <button type="button" name="Flume-page" class="btn btn-inverse"><a href="https://github.com/kevlycoppers/Flume-page">Flume Concert</a></button>
+          <button type="button" name="cupcake-shop" class="btn btn-inverse"><a href="https://github.com/kevlycoppers/cupcake_shop">Cupcake Shop</a></button>
+          <button type="button" name="hello-world" class="btn btn-inverse"><a href="https://github.com/kevlycoppers/hello-world">Hello World</a></button>
+        </div>
+      <div id="link-info">
+        <ul id="link-info-list">
+          <li>
+            Dedicated to the great country of Iceland, a website showcasing its beauty. Built in html5,CSS, and bootstrap.
+          </li>
+          <hr id="hr-change">
+          <li>
+            Built to showcase proficient use of floats and columns, a site to aid a shelter adopt animals out. Built in html5 and CSS.
+          </li>
+          <hr id="hr-change">
+          <li>
+            Inspired by the music artist Flume's webiste, we created a similarly themed site in html5 and some CSS.
+          </li>
+          <hr id="hr-change">
+          <li>
+            Made to help sell cupcakes, a site built to grow our understanding of CSS as well and reienforce html5.
+          </li>
+          <hr id="hr-change">
+          <li>
+            The <strong>First</strong> website I ever built. Used to learn the basics of html5.
+          </li>
+        </ul>
       </div>
-      <p id="projects-text">
-        I've come a long way from a week ago
-      </p>
+    </div>
     <hr>
     <h2 id="personal-info">About Me</h2>
-      <div class="row" id="about-me">
-        <div class="col-sm-5 col-sm-offest-1">
+      <div class="row">
+        <div class="col-sm-offset-1 col-sm-4 col-md-5" id="body-text">
           <h2>Job Experience</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div class="col-sm-5 col-sm-offset-1">
+        <div class="col-sm-4 col-md-5" id="body-text">
           <h2>Personal Interests</h2>
-          <p>My personal intersests range very wide, to many different catagories. I love to work with cars, which is a hard and very raw environment, but I also love to garden, more of a whole body experience for the senses. I love playing Video games and driving, where I'll sit for hours on end. On the other hand I love to play Tennis and garden, both of which are very active and, at times, very intense.  </p>
+          <p>My personal intersests range very wide, to many different catagories. I love to work with cars, which is a hard and very raw environment, but I also love to garden, more of a whole body experience for the senses. I love playing Video games and driving, where I'll sit for hours on end. On the other hand I love to play Tennis and garden, both of which are very active and, at times, very intense. These things have thought me a lot of patients. During my life I've become attracted to more expensive hobbies, on accident I swear. They just end up being expensive, it's not like I try to. Computer hardware, Fish keeping, Shoe collecting, and Cars are all ver expensive things and growing up in a family without a lot of money meant that if I wanted something, then I had to work for it for myself. This tought me patients and dedication. And Anime and Manga are just fun to watch and read.  </p>
         </div>
       </div>
     <div class="row">
-      <div class="col-sm-3"id="about-me">
+      <div class="col-md-offset-1 col-sm-3">
         <h3>Jobs I have had</h3>
         <ol>
           <li>Auto Parts store clerk </li>
           <li>Industrial Janitor (no toilets)</li>
         </ol>
       </div>
-      <div class="col-sm-3 col-md-offset-3" id="about-me">
+      <div class="col-sm-3 col-md-offset-2">
       <h3>Hobbies</h3>
       <ul class="hobbies-list">
         <li>Tennis</li>
