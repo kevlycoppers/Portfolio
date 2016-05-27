@@ -1,15 +1,17 @@
-body{
-  padding: 60px
-
-}
 
 
-.jumbtron {
+.jumbotron  {
   background-image: url(../images/asics.jpg);
-  background-position: 0% 25%;
+  background-position: 10% 67%;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
   text-shadow: silver 0px 0px 10px
 }
+.c-wrapper {
+width: 80%;
+margin: auto;
+}
+#footer-text {
+  text-align: center;
 }
