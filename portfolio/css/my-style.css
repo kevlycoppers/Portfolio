@@ -2,11 +2,11 @@
 
 .jumbotron  {
   background-image: url(../images/asics.jpg);
-  background-position: 10% 67%;
+  background-position: 10% 67.5%;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  text-shadow: silver 0px 0px 10px
+  text-shadow: rgba(73, 73, 74, 0.7) 0px 0px 10px;
 }
 .c-wrapper {
 width: 80%;
@@ -14,4 +14,7 @@ margin: auto;
 }
 #footer-text {
   text-align: center;
+}
+strong.strong-text {
+  font-size: .95em;
 }
