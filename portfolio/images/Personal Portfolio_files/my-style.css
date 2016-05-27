@@ -8,31 +8,27 @@
   color: white;
   text-shadow: rgba(73, 73, 74, 0.7) 0px 0px 10px;
 }
-#personal-info{
-  text-align: center;
-  margin: auto;
-}
 .c-wrapper {
 width: 80%;
 margin: auto;
 }
+
 strong.strong-text {
   font-size: .95em;
 }
 .hobbies-list {
   font-style: none;
+
 }
 #about-me {
-}
-#projects-text {
-  margin: inherit;
-  margin-left: 5%
+ margin: 5%;
+margin: inherit;
 }
 #project-links {
   margin-left: 5%
-}
-#small-text {
-  font-size: .70em;
+
+
+
 }
 #footer-text {
   text-align: center;
